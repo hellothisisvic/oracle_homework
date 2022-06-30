@@ -4,27 +4,27 @@ import com.vic.constants.FuelUsage;
 
 public class PlainSquare implements Square {
     @Override
-    public Integer getFirstVisitFuelUsage(){
+    public Integer getFirstVisitFuelUsage() {
         return FuelUsage.CLEARING_PLAIN_LAND;
     }
 
     @Override
-    public Integer getVisitedFuelUsage(){
+    public Integer getVisitedFuelUsage() {
         return FuelUsage.CLEARED_LAND;
     }
 
     @Override
-    public Integer getPassThroughFuelUsage(){
+    public Integer getPassThroughFuelUsage() {
         return FuelUsage.CLEARED_LAND;
     }
 
     @Override
-    public boolean willDamagePaint(boolean isPassThrough){
+    public boolean willDamagePaint(boolean isPassThrough) {
         return false;
     }
 
     @Override
-    public boolean isProtectedTree(){
+    public boolean isProtectedTree() {
         return false;
     }
 

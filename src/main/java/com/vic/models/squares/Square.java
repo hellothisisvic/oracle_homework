@@ -2,9 +2,13 @@ package com.vic.models.squares;
 
 public interface Square {
     Integer getFirstVisitFuelUsage();
+
     Integer getVisitedFuelUsage();
+
     Integer getPassThroughFuelUsage();
+
     boolean willDamagePaint(boolean isPassThrough);
+
     boolean isProtectedTree();
 
     String getSquareType();

@@ -35,6 +35,5 @@ public class OperatorInteraction {
     public static final String SPACE_STRING = " ";
     public static final String NEW_LINE_STRING = "\n";
 
-    private OperatorInteraction() {
-    }
+    private OperatorInteraction() {}
 }

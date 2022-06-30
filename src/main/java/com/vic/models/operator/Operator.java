@@ -60,7 +60,7 @@ public class Operator {
         return this.position.getStartFacingDirection();
     }
 
-    public String getStartRowRelativePosition(){
+    public String getStartRowRelativePosition() {
         return this.position.getStartRowRelativePosition();
     }
 

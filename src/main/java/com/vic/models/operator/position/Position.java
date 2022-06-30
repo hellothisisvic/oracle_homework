@@ -109,9 +109,9 @@ public class Position {
             return Direction.WEST;
         } else if (startY == siteColumnSize && startX >= 0 && startX < siteRowSize) {
             return Direction.EAST;
-        } else if (startX == -1 && startY >=0 && startY < siteColumnSize) {
+        } else if (startX == -1 && startY >= 0 && startY < siteColumnSize) {
             return Direction.NORTH;
-        } else if (startX == siteRowSize && startY >=0 && startY < siteColumnSize) {
+        } else if (startX == siteRowSize && startY >= 0 && startY < siteColumnSize) {
             return Direction.SOUTH;
         } else {
             throw new IllegalStartDirection(ILLEGAL_START_DIRECTION, startX, startY);
