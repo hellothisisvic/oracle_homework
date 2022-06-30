@@ -44,8 +44,10 @@ Use mvn to test
 mvn clean test
 ```
 
-###Coverage report
+### Coverage report
+```bash
 target/site/jacoco/index.html
+```
 
 ## Build
 
